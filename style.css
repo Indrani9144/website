@@ -1,0 +1,98 @@
+.first-container{
+   position: relative;
+    text-align: center;
+}
+.first-img{
+    height: 100vh;
+    width: 100%;
+}
+.title-text{
+    position: absolute;
+    top:30%;
+    left:20%;
+    
+}
+.my-img{
+    height: 400px;
+    width: 400px;
+    border-radius: 50%;
+}
+h1{
+  font-family: "Playwrite GB S", cursive;
+  font-optical-sizing:auto;
+  font-weight: 800;
+  font-style:italic;
+  color: rgb(200, 95, 130);
+  
+}
+
+h2{
+    color: rgb(233, 135, 168);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.pro{
+  color: palevioletred; 
+  font-family: italic; 
+}
+hr{
+    border: dotted #84c8c8 6px;
+  border-bottom: none;
+  width: 4%;
+  margin: 100px auto;
+}
+
+.my-skills{
+    text-align: center;
+    padding-top: 20px;
+}
+.parent{
+    display:grid;
+    grid-template-columns: 0.5fr 1fr;
+    grid-template-rows: repeat(1, 1fr);
+    max-width: 50%;
+    margin: 100px auto 0 auto;
+    text-align: left;
+    row-gap: 2rem;
+  }
+.myskill1{
+    height: 300px;
+    width: 300px;
+    padding:50px;
+    padding-top: 0%;
+    float: left;
+}
+.myskill2{
+    height: 300px;
+    width: 300px;
+    padding:50px;
+    padding-top: 0%;
+    float: left;
+}
+.contact-me{
+    background-color:rgba(var(--bs-tertiary-bg-rgb),var(--bs-bg-opacity))!important;
+}
+.btn-primary{
+    background-color:#30e3cb ;
+    background-image: linear-gradient(to bottom, #30e3cb, #2bc4ad);
+    border: 0;
+}
+.last-container{
+    background-color:bisque ;
+    text-align: center;
+    padding-top: 30px;
+}
+a{
+    font-weight: 2rem;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding: 10px;
+    color:rgb(180, 154, 121);
+    text-decoration: none;
+    
+}
+a:hover{
+    color: aliceblue;
+}
+p{
+    padding:20px;
+    font-weight: 0.5rem;
+}
